@@ -1,3 +1,15 @@
+body {
+        
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
 .frog-theme h1 {
 	color: #4A5D23;
 	text-align: center;
@@ -16,10 +28,7 @@
     }
     
 
-body {
-        
-        font-family: "Lucida Console", "Courier New", monospace;
-        }
+
 
 .frog-theme {
     background-color: #87A96B;
@@ -91,6 +100,7 @@ body {
 
 
 
+
 .cat-theme h1 {
 	color: #000000;
 	text-align: center;
@@ -105,6 +115,7 @@ body {
   	background-color: #fffdfa;
     padding: 8px;
     border-radius: 3px;
+    font-size: 20px;
     }
 .cat-theme img {
     	border: 10px solid #fffdfa;
@@ -141,6 +152,8 @@ body {
   		  	background-color: #fffdfa;  
    			 padding: 10px;              
     		border-radius: 4px; 
+            margin-left: auto;
+            margin-right: auto;
             
 }
 
@@ -153,17 +166,21 @@ body {
     color: #ffb2b2;
     
 }
-.frog-theme .image-container {
+.cat-theme .image-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
 
-.frog-theme .centered-link-wrapper {
+.cat-theme .centered-link-wrapper {
     text-align: center;
     margin-top: 20px;
 }
+
+
+
+
 
 
 
@@ -184,10 +201,12 @@ body {
   	background-color: #67472e;
     padding: 8px;
     border-radius: 3px;
+    font-size: 20px;
     }
 .mice-theme img {
     	border: 10px solid #67472e;
-    
+         max-width: 250px;
+         height: auto;
         }
 
 .mice-theme h2 {
@@ -215,11 +234,13 @@ body {
             }		
 
 .mice-theme .info-box {
-        	width: fit-content; 
+        	width: 500px; 
             border: 2px solid #67472e;    
   		  	background-color: #67472e;  
    			 padding: 10px;              
     		border-radius: 4px; 
+            margin-left: auto;
+            margin-right: auto;
             
 }
 
@@ -231,6 +252,17 @@ body {
 .mice-theme a {
     color: #c09277;
     
+}
+.mice-theme .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.mice-theme .centered-link-wrapper {
+    text-align: center;
+    margin-top: 20px;
 }
 
 
